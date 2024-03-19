@@ -28,7 +28,6 @@ services:
       - ELASTICSEARCH_URL=http://elasticsearch:9200
     depends_on:
       - elasticsearch
-      - postgres
     volumes:
       - logstashvolume:/usr/share/logstash/data
 
