@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash:8.7.0
+FROM docker.elastic.co/logstash/logstash:8.12.2
 
 # copy the postgres jdbc driver to the external library folder of logstash
 COPY ./bin/ /usr/share/logstash/logstash-core/lib/jars/
